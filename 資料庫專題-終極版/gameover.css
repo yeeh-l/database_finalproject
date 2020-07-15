@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Microsoft JhengHei;
+}
+
+.background {       /*整個大背景(黑色大背景、星星圖片、*/
+    position: absolute;
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.ground{
+    background-color: rgba(255, 255, 255, 0.397);
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    border-radius: 10px;
+    width: 960px;
+    height: 400px;
+    z-index: 1;
+}
+
+.ground2{
+    background-color: rgba(255, 255, 255, 0.397);
+    position: absolute;
+    top: 27%;
+    left: 25%;
+    border-radius: 10px;
+    width: 800px;
+    height: 350px;
+    z-index: 1;
+}
+
+p[id="fail"]{
+    font-size: 25pt;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+.fail_G{
+    background-color: rgba(245, 222, 179, 0.692);
+    position: relative;
+    margin-top: 12%;
+    margin-left: 15%;
+    border-radius: 10px;
+    width: 550px;
+    height: 150px;
+    z-index: 2;
+}
+
+p[id="success"]{
+    font-size: 15pt;
+    color: black;
+    position: relative;
+    top: 12px;
+    margin-left: 2%;
+}
+
+.success_G{
+    background-color: rgba(245, 222, 179, 0.692);
+    position: relative;
+    top: 14%;
+    margin-left: 5.7%;
+    border-radius: 10px;
+    width: 850px;
+    height: 290px;
+    z-index: 2;
+}
+
+.again{
+    background-color: rgba(255, 235, 205, 0.842);
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 15%;
+    z-index: 1;
+}
+
+.ask{
+    position: relative;
+    text-align: center;
+    top: 20%;
+    z-index: 1;
+}
+
+.yes{
+    text-indent:-9999px;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    background:	#013468;
+    color: white;
+    border: -1px;
+    cursor: pointer;
+    width: 85px;
+    height: 33px;
+    margin-top: 6%;
+    margin-left: -18%;
+    z-index: 2;
+}
+
+.no{
+    text-indent:-9999px;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    background:	#013468;
+    color: white;
+    border: -1px;
+    cursor: pointer;
+    width: 85px;
+    height: 33px;
+    margin-top: 6%;
+    margin-left: 2%;
+    z-index: 2;
+}
+
+.choice_yes{
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 6.5%;
+    margin-left: 38.5%;
+    position: absolute;
+    z-index: 3;
+}
+
+.choice_no{
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 6.5%;
+    margin-left: 58.5%;
+    position: absolute;
+    z-index: 4;
+}
+
+.check_again_button1{
+    position: absolute;
+    background:	#013468;
+    color: white;
+    border: -1px;
+    cursor: pointer;
+    width: 90px;
+    height: 35px;
+    margin-top: 13%;
+    margin-left: 83%;
+    z-index: 2;
+}
+
+.check_again_button2{
+    position: absolute;
+    background:	#013468;
+    color: white;
+    border: -1px;
+    cursor: pointer;
+    width: 90px;
+    height: 35px;
+    margin-top: 8%;
+    margin-left: 94.5%;
+    z-index: 2;
+}
+
+.yes_no_button{
+    position: relative;
+    top:15%;
+    left: -1%;
+}

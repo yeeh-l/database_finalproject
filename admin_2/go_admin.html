@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            background-color:plum;
+        }
+        form{
+            margin-top: 15%;
+            margin-left: 40%;
+        }
+        p{
+            color: black;
+            margin:0 auto;
+            font-family: sans-serif, "微軟正黑體";
+            font-size: 20px;
+        }
+        #content{
+            background-color:rgb(183, 61, 199);
+            width: 270px;
+            height: 60px;
+
+            padding:20px 10px;        
+        }
+    </style>
+</head>
+<body>
+    <form action = 'new_admin.php' method="POST" id="content">
+        <p>欲進入管理者介面請輸入密碼</p><br>
+        <input type="password" name="inputpassword" placeholder="請輸入密碼">
+        <input type="submit" value="送出" onclick="javascript:location.href='new_admin.php'">
+    </form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<style type="text/css">
+        body{
+            background-color:plum;
+        }
+        form{
+            margin-top: 1%;
+            margin-left: 25%;
+        }
+        p{
+            color: black;
+            margin:0 auto;
+            font-family: sans-serif, "微軟正黑體";
+            font-size: 20px;
+        }
+        #p2{
+            margin-top: 1%;
+            margin-left: 50px;
+        }
+        #content_item{
+            background-color:rgb(183, 61, 199);
+            width: 530px;
+            height: 40px;
+
+            padding:20px 10px;        
+        }
+        #content_sightseeing{
+            background-color:rgb(183, 61, 199);
+            width: 630px;
+            height: 160px;
+
+            padding:20px 10px; 
+        }
+        #content_puzzle{
+            background-color:rgb(183, 61, 199);
+            width: 530px;
+            height: 60px;
+
+            padding:20px 10px;        
+        }
+        #content2_item{
+            width: 1500px;
+            margin-top: 5%;
+            margin-left: -73%;    
+        }
+        #content2_sightseeing{
+            width: 1500px;
+            margin-top: 5%;
+            margin-left: -62%;    
+        }
+        #content2_puzzle{
+            width: 1500px;
+            margin-top: 5%;
+            margin-left: -73%;    
+        }
+        #content2_town{
+            width: 800px;
+            margin-top: 2%;
+            margin-left: 17%;    
+        }
+    </style>

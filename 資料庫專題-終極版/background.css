@@ -1,0 +1,801 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Microsoft JhengHei;
+}
+
+.background {       /*整個大背景(黑色大背景、星星圖片、*/
+    position: absolute;
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+
+.scene {
+    position: absolute;
+    display: block;
+    margin-top: 8%;
+    margin-left: 21%;
+}
+
+.taiwan {
+    position: absolute;
+    margin-left: 30%;
+    top:20%;
+    margin-top: 0%;
+    z-index: 2;
+}
+
+.notebookIcon{
+    position: absolute;
+    margin-left: 7%;
+    margin-top:-70%;
+    z-index: 9;
+    width:47px;
+    height:55px;
+
+}
+
+.notebook{
+    position: relative;
+    z-index: 10;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+
+.title{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 20pt;
+    margin-top: -73%;
+    margin-left: 5%;
+}
+
+.notebook_page{
+    width:1000px;
+    height:800px;
+}
+
+.notebook_title{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 20pt;
+    margin-top: -67%;
+    margin-left: 7%;
+}
+
+.notebook_pic{
+    width:330px;
+    height:230px;
+}
+
+.notebook_address{
+    position: absolute;
+    font-size: 13pt;
+    margin-top: -37%;
+    margin-left: 59%;
+
+}
+
+.notebook_description{
+    position: absolute;
+    font-size: 13pt;
+    margin-top: -67%;
+    margin-left: 59%;
+    word-wrap:break-word;
+}
+
+.last_page{
+    margin-left: -95%;
+    margin-top: 56%;
+}
+
+.next_page{
+    margin-left: -7.5%;
+    margin-top: 56%;
+}
+
+.bookmark_item{
+    margin-left: -91%;
+}
+
+.bookmark_visit{
+    margin-left: -95%;
+}
+
+.cancel{
+    margin-left: -7.5%;
+    margin-top: 5%;
+
+}
+
+.makePointer{
+    position: absolute;
+    cursor: pointer;
+}
+
+
+
+.textarea{
+    position: absolute;
+    width:880px;
+    height:200px;
+    z-index: 3;
+    background-color: rgb(202, 199, 199);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 11.5pt;
+    outline: none;
+    margin-left: 23%;
+    margin-top: -13.5%;
+}
+
+.makePointer{
+    position: absolute;
+    cursor: pointer;
+}
+
+
+
+.northArea nav {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 10em;
+    border: 2px solid #E9BD5D;
+    background-color: #E9BD5D;
+    cursor: pointer;
+}
+
+nav ul {
+    position: absolute;
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10em;
+    margin-top:-40%;
+
+}
+
+nav:hover ul {
+    display: block;
+}
+
+.northArea nav:hover {
+    background-color: #dda11f;
+}
+
+.northArea nav ul li {
+    border-top: 2px solid #E9BD5D;
+    background-color: white;
+    width: 10em;
+    color: black;
+}
+
+
+.northArea nav ul li:hover {
+    background-color: #f5e3bb;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.midArea nav:hover {
+    background-color: #446336;
+}
+
+.midArea nav {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 10em;
+    border: 2px solid #699753;
+    background-color: #699753;
+    cursor: pointer;
+}
+
+.midArea nav ul li {
+    border-top: 2px solid #699753;
+    background-color: white;
+    width: 10em;
+    color: black;
+}
+
+.midArea nav ul li:hover {
+    background-color: #c1d1b9;
+}
+
+.southArea nav:hover {
+    background-color: saddlebrown;
+}
+
+.southArea nav {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 10em;
+    border: 2px solid #E9893F;
+    background-color: #E9893F;
+    cursor: pointer;
+}
+
+.southArea nav ul li {
+    
+    border-top: 2px solid #E9893F;
+    background-color: white;
+    width: 10em;
+    color: black;
+}
+
+.southArea nav ul li:hover {
+    background-color: #f7d8bf;
+}
+
+.option {
+    position: absolute;
+    margin-left: 53%;
+    z-index: 9;
+    margin-top: -37%;
+}
+
+.northArea {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 58%
+}
+
+.midArea {
+    position: relative;
+    margin-top: 20%;
+    margin-left: 45%
+
+}
+
+.southArea {
+    position: relative;
+    margin-top: 21%;
+    margin-left: 20%;
+
+}
+/*---------------------------------------------------------*/
+h4{
+    position: relative;
+    font-size: 45pt;
+    top:10%;
+    color:white;
+}
+
+.startpage{
+    position: relative;
+    display: block;
+    left: 45%;
+    top: 35%;
+    width: 50%;
+    height: 50vh;
+}
+
+.startgame{
+    position: relative;
+    background:	#013468;
+    color: white;
+    font-size: 13pt;
+    border: -1px;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+    margin-top: 8%;
+    left: -4%;
+}
+/*---------------------------------------------------------*/
+
+.explain{
+position: absolute;
+background:	#013468;
+color: white;
+font-size: 13pt;
+border: -1px;
+cursor: pointer;
+width: 200px;
+height: 35px;
+margin-top: 14%;
+left: -4%;
+}
+
+/*---------------------------------------------------------*/
+
+.playerGraph1{                      /*登入介面z-index:1*/
+    position: absolute;
+    margin-top: 2%;
+    border-radius: 15px;
+    width: 510px;
+    height: 380px;
+    background:rgb(58, 55, 55);
+    color: white;
+    font-size: 10pt;
+}
+
+.palyerGraph2{                      /*登入介面z-index:2*/
+    position: relative;
+    margin-left: 3%;
+    margin-top: 13%;
+    border-radius: 15px;
+    width: 480px;
+    height: 310px;
+    background:#6C6C6C;
+    font-size: 8.5pt;
+    color: white;
+}
+
+.playerGraph3{                      /*註冊介面z-index:1*/
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 10%;
+    border-radius: 15px;
+    width: 510px;
+    height: 470px;
+    background:rgb(58, 55, 55);
+    color: white;
+    font-size: 10pt;
+}
+
+.palyerGraph4{                       /*註冊介面z-index:2*/
+    position: absolute;
+    margin-left: 31%;
+    margin-top: 13.5%;
+    border-radius: 15px;
+    width: 480px;
+    height: 395px;
+    background:#6C6C6C;
+    font-size: 8.5pt;
+    color: white;
+}
+
+input[type="text"]                       /*文字框樣式*/
+{
+    position: absolute;
+    margin-left:5%;
+    margin-top:4%;
+    width: 400px;
+    height: 40px;
+    border-radius:10px ;
+    border-color: rgb(182, 178, 178);
+}
+
+input[id="account1"]                       /*文字框樣式*/
+{
+    position: absolute;
+    margin-left:5%;
+    margin-top:0%;
+    width: 400px;
+    height: 40px;
+    border-radius:10px ;
+    border-color: rgb(182, 178, 178);
+}
+
+input[type="password"]                   /*文字框樣式*/
+{
+    position: absolute;
+    margin-left:5%;
+    margin-top:0%;
+    width: 400px;
+    height: 40px;
+    border-radius:10px ;
+    border-color: rgb(182, 178, 178);
+}
+
+input[id="signinbutton"]{               /*登入介面 登入按鈕*/  
+    margin:0;  
+    padding: 0;
+    position: absolute;
+    background:	#013468;
+    color: white;
+    font-size: 13pt;
+    border: -1px;
+    cursor: pointer;
+    width: 390px;
+    height: 35px;
+    margin-top: 16%;
+    margin-left: 7%;
+    z-index: 1;
+}
+
+input[id="createbutton"]{            /*登入介面 註冊按鈕*/
+    margin:0;
+    padding: 0;
+    position: absolute;
+    background:	#808000;
+    color: white;
+    font-size: 13pt;
+    border: -1px;
+    cursor: pointer;
+    width: 390px;
+    height: 35px;
+    margin-top: 24%;
+    margin-left: 7%;
+}
+
+input[id="comfirm"]{                /*註冊介面 確認按鈕*/
+    margin:0;
+    padding: 0;
+    position: absolute;
+    background:	#013468;
+    color: white;
+    font-size: 13pt;
+    border: -1px;
+    cursor: pointer;
+    width: 390px;
+    height: 35px;
+    margin-top: 16%;
+    margin-left: 7%;
+    z-index: 1;
+}
+
+input[id="haveaccount"]{            /*註冊介面 已有按鈕*/
+    margin:0;
+    padding: 0;
+    position: absolute;
+    background:	#808000;
+    color: white;
+    font-size: 13pt;
+    border: -1px;
+    cursor: pointer;
+    width: 390px;
+    height: 35px;
+    margin-top: 25%;
+    margin-left: 7%;
+}
+
+
+.signin{
+    position: absolute;
+    display: block;
+    margin-left:35% ;
+    margin-top: 10%;
+}
+
+/*---------------------------------------------------------*/
+
+
+.explain1{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+.explainbackground{                    
+    position: relative;
+    border-radius: 15px;
+    background-color:#6C6C6C;
+    width: 1000px;
+    height: 70vh;
+    z-index:2;
+    left: 18%;
+    top: 18%;
+    
+    font-size: 8.5pt;
+    color: white;
+}
+
+
+input[id="return"]
+{
+    margin:0;
+    padding: 0;
+    position: relative;
+    background:	#013468;
+    color: white;
+    font-size: 13pt;
+    border: -1px;
+    cursor: pointer;
+    width: 140px;
+    height: 35px;
+    top: 5%;
+}
+
+
+.Attraction{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 45%;
+    font-size: 14pt;
+}
+/*----------------圖片背景------------*/
+.backgroundImg{
+    z-index: 1;
+    position: relative;
+    margin-top: 7%;
+    margin-left: 20%;
+    border-radius: 10px;
+    width: 960px;
+    height :640px;
+}
+
+.pic_background{
+    width: 960px;
+    height: 640px;
+    background:rgba(255, 255, 255, 0.6);
+    position: absolute;
+    margin-left: 20%; 
+    margin-top: 7%;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+.intro_pic{                     /*介紹介面的黑色背景*/
+    width: 900px;
+    height: 535px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-top: -37%;
+    margin-left: 22%;
+    border-radius: 15px;
+    z-index: 3;
+    display: block;
+    
+}
+
+.word{
+    margin-top: -30%;
+    margin-left: 49%;
+
+}
+
+
+
+p[id="Question"]{
+    color: rgb(19, 17, 9);
+    font-size:20pt ;
+    text-align: center;
+    margin-top: 12%;
+    
+}
+
+.Question_G{
+    position: relative;
+    margin-top: -43%;
+    margin-left: 2%;
+    z-index: 3;
+}
+
+.answer1:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.answer2:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.answer3:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+
+p[id="Answer"]{
+    font-size: 15pt;
+    position: absolute;
+    text-align: center;
+    margin-top: -3%;
+    margin-left: 40%;
+    color: black;
+    z-index: 4;
+}
+
+p[id="item_alert"]{
+    text-align: center;
+    font-size: 20pt;
+    color: black;
+    margin-top: 5%;
+}
+
+p[id="get_item"]{
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 5%;
+    color: black;
+}
+
+
+img[id="intro_pic"]{            /*目前的景點照片*/
+    width: 400px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+
+
+p[id="intro_word_title"]{       /*介紹的標題*/
+    color :blanchedalmond;
+    font-size: 18pt;
+}
+
+p[id="intro_word"]{             /*介紹的內文*/
+    color :blanchedalmond;
+    font-size: 15pt;
+    margin-top:0%;
+    word-wrap:break-word;       /*強迫換行*/
+}
+
+.heart{
+    position: absolute;
+    display: block;
+    z-index: 4;
+    width: 70px;
+    height: 70px;
+}
+
+.heart1{ 
+    position: absolute;
+    margin-left: 1255%;
+    margin-top: -15%;
+    width: 70px;
+    height: 70px;
+}
+
+.heart2{
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 1180%;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+}
+
+.heart3{
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 1105%;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+}
+
+.place{
+    background-color: transparent;
+    border-style:none;
+    width: 12em;
+    height: 1.8em;
+}
+
+.answer1{
+    text-indent:-9999px;
+    width: 380px;
+    height: 60px;
+    position: relative;
+    z-index: 3;
+    background-color:#9D9D9D;
+    border-radius: 15px;
+    margin-left: 38%;
+    margin-top: 1%;
+    border-color:#4F4F4F;
+    border-style: ridge;;
+}
+
+.answer2{
+    text-indent:-9999px;
+    width: 380px;
+    height: 60px;
+    position: relative;
+    z-index: 3;
+    background-color:#9D9D9D;
+    border-radius: 15px;
+    margin-left: 38%;
+    margin-top: 2%;
+    border-color:#4F4F4F;
+    border-style: ridge;
+}
+
+.answer3{
+    text-indent:-9999px;
+    width: 380px;
+    height: 60px;
+    position: relative;
+    z-index: 3;
+    background-color:#9D9D9D;
+    border-radius: 15px;
+    margin-left: 38%;
+    margin-top: 2%;
+    border-color:#4F4F4F;
+    border-style: ridge;
+}
+
+.Go_night_button{
+    position: absolute;
+    margin-left: 79%;
+    margin-top: 17%;
+    background:	#013468;
+    color: white;
+    font-size: 13pt;
+    border: -1px;
+    cursor: pointer;
+    width: 160px;
+    height: 35px;
+    z-index: 4;
+
+}
+
+.Question_title_2{
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 40%;
+    z-index: 1;
+}
+
+.success_G{
+    text-indent:-9999px;
+    position: absolute;
+    background-color: rgba(12, 10, 8, 0.151);
+    width: 400px;
+    height: 175px;
+    margin-top: -29%;
+    margin-left: 38%;
+    border-radius: 10px;
+    border-style: solid;
+    display: block;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.fail_G{
+    text-indent:-9999px;
+    position: absolute;
+    background-color: rgba(12, 10, 8, 0.151);
+    width: 400px;
+    height: 120px;
+    margin-top: -27%;
+    margin-left: 38%;
+    border-radius: 10px;
+    border-style: solid;
+    cursor: pointer;
+    display: block;
+    z-index: 3;
+}
+
+.item_word{
+    position: absolute;
+    margin-top: -27.5%;
+    margin-left: 44%;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.item_fail_word{
+    position: absolute;
+    margin-top: -26.5%;
+    margin-left: 43%;
+    cursor: pointer;
+    z-index: 4;
+}
+
+p[id="memory_word"]{
+    word-wrap:break-word;       /*強迫換行*/
+    color: black;
+    position: absolute;
+    margin-top:8%;
+    margin-left:2%;
+    z-index: 3;
+}
+
+.Go_back_button{
+    position: absolute;
+    margin-left: 79%;
+    margin-top: 17%;
+    background:	#013468;
+    color: white;
+    font-size: 13pt;
+    border: -1px;
+    cursor: pointer;
+    width: 160px;
+    height: 35px;
+    z-index: 4;
+}
+
